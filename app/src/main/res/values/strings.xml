@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Offline AI</string>
+    <string name="btn_load_model">Load Model</string>
+    <string name="btn_free_model">Free</string>
+    <string name="btn_generate">Generate</string>
+    <string name="label_prompt">Prompt</string>
+    <string name="hint_prompt">Masukkan instruksi atau pertanyaan untuk model AI lokal...</string>
+    <string name="label_output">Hasil Generate</string>
+    <string name="label_error">Error</string>
+    <string name="status_idle">Model belum dimuat</string>
+</resources>
