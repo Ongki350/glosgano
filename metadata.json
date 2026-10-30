@@ -1,0 +1,6 @@
+{
+  "name": "Offline AI",
+  "description": "Local offline AI inference application powered by native GGUF models with llama.cpp JNI bridge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
