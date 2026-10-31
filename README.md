@@ -8,7 +8,7 @@ Aplikasi AI lokal (offline) berbasis Android yang dirancang untuk menjadi asiste
 
 Anda tidak perlu meng-compile kode sendiri untuk mencoba aplikasi ini. Kami telah menyediakan file APK siap pakai yang bisa langsung Anda unduh dan instal di perangkat Android Anda.
 
-**[Klik di sini untuk mengunduh APK versi terbaru](https://github.com/Ongki350/glosgano/releases/latest)**
+👉 **[Klik di sini untuk mengunduh APK versi terbaru](https://github.com/Ongki350/glosgano/releases/latest)** 👈
 
 (Catatan: Pastikan Anda mengizinkan "Install from Unknown Sources" di pengaturan HP Anda).
 
