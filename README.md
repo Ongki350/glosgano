@@ -4,6 +4,16 @@ Aplikasi AI lokal (offline) berbasis Android yang dirancang untuk menjadi asiste
 
 ---
 
+## 🚀 Coba Aplikasi (Tanpa Compile!)
+
+Anda tidak perlu meng-*compile* kode sendiri untuk mencoba aplikasi ini. Kami telah menyediakan file **APK siap pakai** yang bisa langsung Anda unduh dan instal di perangkat Android Anda.
+
+👉 **[Klik di sini untuk mengunduh APK versi terbaru](https://github.com/Ongki350/ai-local-agent/releases/latest)** 👈
+
+*(Catatan: Pastikan Anda mengizinkan "Install from Unknown Sources" di pengaturan HP Anda).*
+
+---
+
 ## ✨ Fitur Utama
 
 Aplikasi ini bukan sekadar chatbot biasa. Berikut adalah fitur-fitur canggih yang tertanam di dalamnya:
@@ -41,6 +51,10 @@ Aplikasi ini bukan sekadar chatbot biasa. Berikut adalah fitur-fitur canggih yan
 - Antarmuka pengguna sudah mendukung pengiriman gambar (Kamera, Galeri, File).
 - Siap digunakan pada perangkat 64-bit (ARM64) dengan library `libmtmd.so` yang sesuai.
 
+### 🥚 8. Launcher Mode & Safety Menu (Easter Egg)
+- Ketuk 2x (Double Tap) pada judul "Offline AI" di bagian atas layar untuk membuka menu darurat.
+- Memungkinkan Anda menjadikan aplikasi sebagai Launcher Default, membuka Launcher lain, atau keluar dari aplikasi jika terjadi masalah (Safety).
+
 ---
 
 ## 🛠️ Teknologi yang Digunakan
@@ -52,40 +66,22 @@ Aplikasi ini bukan sekadar chatbot biasa. Berikut adalah fitur-fitur canggih yan
 
 ---
 
-## 🚀 Cara Build & Instalasi
+## ⚠️ Catatan Penting
 
-1. **Clone Repositori**:
-   ```bash
-   git clone https://github.com/Ongki350/ai-local-agent.git
-```
-
-2. Buka di Android Studio:
-   · Pastikan Anda memiliki NDK (Native Development Kit) yang terinstal.
-3. Siapkan Library Native (.so):
-   · File .so (seperti libllama.so, libmtmd.so, dll) tidak disertakan di repositori ini karena ukurannya yang besar.
-   · Unduh library .so yang sesuai dari GitHub Releases atau compile sendiri di Google Colab.
-   · Letakkan file .so di folder app/src/main/jniLibs/arm64-v8a/ (atau armeabi-v7a/).
-4. Build APK:
-   · Jalankan ./gradlew assembleDebug atau build langsung dari Android Studio.
+- **Akses Root**: Aplikasi ini membutuhkan **Akses Root (Superuser)** untuk fitur Agent dan Turbo Mode. Gunakan dengan bijak.
+- **Bahasa**: Antarmuka aplikasi (UI) dan teks bawaan (default prompt) saat ini menggunakan **Bahasa Indonesia**. Namun, pengguna dapat mengubah *System Prompt*, *Agent Prompt*, dan *ChatML Template* secara bebas di menu Pengaturan Lanjutan (mendukung bahasa apa pun).
+- **Vision (VLM)**: Fitur Vision saat ini hanya tersedia untuk perangkat ARM64 (64-bit).
 
 ---
 
-⚠️ Catatan Keamanan
+## 📄 Lisensi
 
-· Aplikasi ini membutuhkan Akses Root (Superuser) untuk fitur Agent dan Turbo Mode.
-· Gunakan fitur Agent dengan bijak. Developer tidak bertanggung jawab atas kerusakan sistem yang disebabkan oleh perintah shell yang salah.
-· Selalu lakukan backup data sebelum bereksperimen dengan perintah Root.
+Proyek ini dilisensikan di bawah **Apache License 2.0**. Lihat file `LICENSE` untuk detailnya.
 
 ---
 
-📄 Lisensi
+## 🤝 Kontribusi
 
-Proyek ini dilisensikan di bawah Apache License 2.0. Lihat file LICENSE untuk detailnya.
+Kontribusi selalu terbuka! Jika Anda menemukan bug atau ingin menambahkan fitur baru, silakan buat *Pull Request* atau buka *Issue*.
 
----
-
-🤝 Kontribusi
-
-Kontribusi selalu terbuka! Jika Anda menemukan bug atau ingin menambahkan fitur baru, silakan buat Pull Request atau buka Issue.
-
-Dibuat dengan ❤️ oleh Ongki350
+Dibuat dengan ❤️ oleh [Ongki350](https://github.com/Ongki350)
