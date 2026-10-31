@@ -35,6 +35,7 @@ Aplikasi ini bukan sekadar chatbot biasa. Berikut adalah fitur-fitur canggih yan
 · Multi-Step Automation: Pengguna dapat menambahkan daftar tugas (misal: "Buka WhatsApp", "Cari kontak Budi", "Kirim pesan").
 · Aplikasi akan mengeksekusi tugas tersebut satu per satu secara otomatis hingga antrean selesai.
 · Dilengkapi indikator status (Menunggu, Sedang Berjalan, Selesai) dan penanganan error yang cerdas.
+· Dilengkapi indikator status (Menunggu, Sedang Berjalan, Selesai) dan penanganan error yang cerdas.
 
 🌐 4. Web Search (Online)
 
